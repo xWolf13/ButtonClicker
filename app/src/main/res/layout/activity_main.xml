@@ -1,0 +1,29 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Player One"
+        android:layout_alignBaseline="@+id/buttonTwo"
+        android:layout_alignBottom="@+id/buttonTwo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp" />
+
+    <Button
+        android:id="@+id/buttonTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/buttonOne"
+        android:layout_align="true"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:text="Player Two" />
+
+
+</RelativeLayout>
